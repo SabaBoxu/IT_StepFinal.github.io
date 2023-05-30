@@ -1,0 +1,604 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.logo{
+    font-size: 28px;
+    font-style: bold;
+    color: black;
+}
+span{
+    color:#FF4A22 ;
+}
+.hamburger{
+    display: none;
+}
+.nav-bar  ul{
+    display: flex;
+}
+.nav-bar.active{
+    height: 400px;
+}
+.nav-bar ul li a{
+    display: block;
+    color: black;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    
+}
+.nav-bar.active ul{
+    opacity: 1;
+}
+
+.nav-bar ul li a:hover{
+    color: white;
+    background: #FF4A22;
+}
+
+.nav-bar ul li a.active{
+    color: white;
+    background: #FF4A22;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#divin1{
+    display: flex;
+    gap: 15px;
+}
+#maindiv2{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 115px;
+    margin-left: 90px;
+}
+.swiper {
+    width: 301px;
+    height:401px;
+    border-radius:10px;
+    margin-right: 190px;
+  }
+.img1{
+    width:300px;
+    height: 400px;
+}
+.img2{
+    width:300px;
+    height: 400px;
+}
+.img3{
+    width:300px;
+    height: 400px;
+}
+#Sub:hover{
+    background-color: #FF4A22;
+}
+.Sub:hover{
+    color: white;
+}
+.OrderButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 130px;
+    height: 40px;
+    background: #FF4A22;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+.JoinButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 130px;
+    height: 40px;
+    background: rgba(255, 74, 34, 0.15);
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+#div3{
+    margin-top: 60px;
+}
+.divtitle{
+    display: flex;
+    justify-content: space-between;
+}
+.maindiv3{
+    margin-top: 130px;
+    margin-left: 90px;
+}
+.titA{
+    color: #FF4A22;
+    margin-right: 110px;
+}
+.Pcard{
+    width: 390px;
+    height: 389px;
+}
+#twocarddiv{
+    display: flex;
+}
+.cards{
+    display: flex;
+    margin-top: 60px;
+    margin-left: -50px;
+    justify-content: center;
+}
+.Price{
+    width: 70px;
+    height: 33px;
+    left: 26px;
+    top: 295px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FF4A22;
+}
+#numbers{    
+    color: rgba(51, 51, 51, 0.4);
+    }
+.Phead{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 976px;
+width: 1273px;
+height: 45px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+#Buy{
+    width: 68px;
+    height: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0
+}
+#info{
+
+width: 390px;
+height: 147px;
+left: 0px;
+top: 242px;
+display: flex;
+
+background: #FFFFFF;
+
+
+box-shadow: 0px 15px 30px rgba(224, 224, 236, 0.8);
+border-radius: 0px 0px 20px 20px;
+}
+#img{
+width: 390px;
+height: 242px;
+left: 0px;
+top: 0px;
+}
+#info1{
+    width: 390px;
+height: 389px;
+}
+#numbers{
+
+width: 123px;
+height: 23px;
+left: 111px;
+top: 301px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+color: rgba(51, 51, 51, 0.4);
+}
+.crd{
+    display: flex;
+}
+.Pbut1{
+    margin-top: 40px;
+    margin-left: 150px;
+    color: white;
+    background-color: #FF4A22;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 15px;
+}
+
+.pcard{
+    width: 390px;
+    height: 390px;
+    margin-left: 50px;
+    box-shadow: 0px 15px 30px rgba(224, 224, 236, 0.8);
+}
+.h{
+    color:#FF4A22
+}
+.order{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.maindiv4{
+    background-image: url(img/Rectangle15.png);
+    width: 100%;
+    height: 454px;
+    background-size: cover;
+    margin-top: 200px;
+}
+.maindiv4>div{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#divin4m{
+    color: white;
+    background-color:rgba(0, 0, 0, 0.103) ;
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+#Subbut{
+    color: white;
+    background-color: #FF4A22;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-family: 'Poppins'
+}
+#p1{
+    margin-top: 25px;
+    font-family: 'Poppins';
+}
+.divtitle5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-left: 90px;
+}
+
+.im{
+    width: 350px;
+    height: 400px;
+}
+.swiper{
+    float: left;
+    margin-top: 40px;
+}
+.swiper-slide{
+    background-size: cover;
+}
+.swiper-button-prev{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(220, 220, 220, 0.3);
+    color: white;
+}
+.swiper-button-next{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(220, 220, 220, 0.3);
+    color: white;
+}
+.recipeDiv{
+    margin-left: 130px;
+}
+.imdiv{
+    margin-top: 15px;
+}
+#recdivin2{
+    display: flex;
+}
+#infodiv{
+    margin-left: 30px;
+}
+#vec2img{
+    margin-left: 15px;
+}
+.ul2{
+    margin-left: -25px;
+    margin-top: -10px;
+    color: #333333CC;
+}
+#comdiv{
+    display: flex;
+}
+#divin2{
+    margin-top: 18px;
+    color: #333333CC;
+    
+}
+#divin3{
+    margin-top: 28px;
+    color: #333333CC;
+}
+#divin4{
+    margin-top: 38px;
+    color: #333333CC;
+}
+.mainfoot{
+    background-color: #FF4A22;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+.footdiv1{
+    margin-top: 80px;
+    margin-left: 120px;
+}
+.footdiv2{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.footdiv3{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.footdiv4{
+    margin-top: 60px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+ 
+}
+#li2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#li3{
+    margin-top: 20px;
+}
+#ul li a{
+    color: white;
+}
+#ul1 li a{
+    color: white;
+}
+
+
+@media only screen and (max-width:1320px){
+    header{
+        padding: 0 50px;
+    }
+    #twocarddiv{
+        display: block;
+    }
+}
+@media only screen and (max-width:1100px){
+    header{
+        padding: 0 20px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .maindiv2 {
+        flex-direction: column;
+    }
+
+    .maindiv3 {
+        flex-direction: column;
+    }
+
+    .maindiv4 {
+        flex-direction: column;
+    }
+
+    .recipeDiv {
+        flex-direction: column;
+    }
+
+    .mainfoot {
+        flex-direction: column;
+    }
+}
+    
+
+
+
+    @media only screen and (max-width:900px){
+        .hamburger{
+         display: block;
+         cursor: pointer;
+        }
+        .hamburger .line{
+            width: 30px;
+            height: 3px;
+            background: black;
+            margin: 6px 0;
+        }
+        .nav-bar{
+            position: absolute;
+             height:0px;
+            top: 80px;
+            left: 0;
+            right: 0;
+            background: #ff4a22;
+            width: 100vw;
+            transition: 0.2s;
+            overflow: hidden;
+        }
+        .nav-bar ul{
+            display: block;
+            width: fit-content;
+            margin: 80px auto 0 auto;
+            text-align: center;
+            transition: 0.5s;
+            opacity: 0;
+        }
+        .nav-bar ul li a{
+            margin-bottom: 12px;
+        }
+        #swp{
+            display: none;
+        }
+     }
+
+
+@media (max-width: 768px) {
+
+    li {
+        margin-top: 8px;
+    }
+
+    .maindiv2 {
+        margin-top: 60px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .swiper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .swiper-slide {
+        width: 100%;
+    }
+
+    .maindiv3 {
+        margin-top: 80px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .titA {
+        margin-right: 15px;
+    }
+
+    .pcard {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .maindiv4 {
+        margin-top: 120px;
+    }
+
+    #divin4m {
+        width: 100%;
+        margin: 0 15px;
+    }
+
+    .divtitle5 {
+        margin-top: 60px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .im {
+        width: 100%;
+        height: auto;
+    }
+
+    .recipeDiv {
+        width: 90%;
+        margin-left: 5%;
+      }
+
+    #recdivin2 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #recdivin2 h3,
+    #recdivin2 p,
+    #price {
+        text-align: center;
+    }
+    #recdivin2 {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+    #vec2img {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .mainfoot {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footdiv1 {
+        margin-top: 40px;
+    }
+
+    .footdiv2,
+    .footdiv3,
+    .footdiv4 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .footdiv4 {
+        margin-bottom: 40px;
+      }
+
+    .footdiv2 a,
+    .footdiv3 a {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .cards {
+        flex-direction: column;
+        margin-left: 0;
+      }
+      #imgdiv {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+      }
+      #imgdiv img {
+        max-width: 100%;
+        height: auto;
+      }
+}

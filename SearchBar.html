@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Searchbar.css">
+</head>
+<body>
+  <div class="maindiv">
+    <div id="search-container">
+      <input type="search"id="search-input"placeholder="Search Dessert"/>
+      <button id="search">Search</button>
+    </div>
+    <a id="Hbut" href="index.html">Home</i></a>
+    <div id="buttons">
+      <button class="btns" onclick="filterProduct('all')">All</button>
+      <button class="btns" onclick="filterProduct('Chocolate')">Chocolate</button>
+      <button class="btns" onclick="filterProduct('Strawberry')">Strawberry</button>
+      <button class="btns" onclick="filterProduct('Vanilla')">Vanilla</button>
+      <button class="btns" onclick="filterProduct('BlueBerry')">BlueBerry</button>
+    </div>
+    <div id="products"></div>
+  </div>
+  <script src="Search.js"></script>
+</body>
+</html>
